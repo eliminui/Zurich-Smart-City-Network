@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[8.5188, 47.3862], [8.5212, 47.3862], [8.5212, 47.3848], [8.5188, 47.3848], [8.5188, 47.3862]]]}, "properties": {"name": "Pedestrian counting system", "layer": "Pedestrian counting system", "site": "VBZ-Haltestelle Hardbrücke"}}]}

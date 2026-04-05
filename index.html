@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Zurich Smart City Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000;
+        }
+
+        #map {
+            position: absolute;
+            inset: 0;
+            background: #000;
+        }
+
+        .leaflet-container {
+            font-size: 1rem;
+            background: #000;
+        }
+
+        .legend {
+            background: rgba(20, 20, 20, 0.9);
+            color: white;
+            padding: 10px 12px;
+            line-height: 1.4;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            max-width: 360px;
+            font-size: 13px;
+        }
+
+        .legend-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;   /* ← plus grand */
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+            border: 1px solid rgba(255,255,255,0.8);
+            flex: 0 0 12px;
+        }
+
+        .legend-dot.white {
+            background: white;
+        }
+
+        .legend-dot.pink {
+            background: #FF69B4;
+        }
+
+        .legend-dot.blue {
+            background: #1f77b4;
+        }
+
+        .legend-dot.orange {
+            background: #ff7f0e;
+        }
+
+        .legend-dot.red {
+            background: #d62728;
+        }
+
+        .legend-dot.green {
+            background: #2ca02c;
+        }
+
+        .legend-dot.purple {
+            background: #9467bd;
+        }
+
+        .legend-dot.brown {
+            background: #8c564b;
+        }
+
+        .legend-box {
+            width: 16px;
+            height: 12px;
+            display: inline-block;
+            margin-right: 8px;
+            border: 2px solid rgba(255,255,255,1);
+            background: rgba(255,255,255,0.22);
+            flex: 0 0 16px;
+        }
+
+        .map-title {
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 8px 12px;
+            font-weight: 700;
+            font-size: 16px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        console.log("Carte Zurich Smart City Network chargée");
+
+        const map = L.map("map", {
+            center: [47.3769, 8.5417],
+            zoom: 13,
+            zoomControl: true,
+            preferCanvas: true
+        });
+
+        const darkBase = L.tileLayer(
+            "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+            {
+                subdomains: "abcd",
+                minZoom: 0,
+                maxZoom: 20,
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+            }
+        ).addTo(map);
+
+        map.createPane("whitePolygonPane");
+        map.getPane("whitePolygonPane").style.zIndex = 650;
+
+        map.createPane("whitePointPane");
+        map.getPane("whitePointPane").style.zIndex = 660;
+
+        function escapeHtml(value) {
+            if (value === null || value === undefined) return "";
+            return String(value)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function defaultPopupContent(properties) {
+            const rows = [];
+
+            if (properties && properties.name) {
+                rows.push(`<b>${escapeHtml(properties.name)}</b>`);
+            }
+
+            if (properties && properties.site) {
+                rows.push(`Site: ${escapeHtml(properties.site)}`);
+            }
+
+            if (properties && properties.station_name) {
+                rows.push(`Station: ${escapeHtml(properties.station_name)}`);
+            }
+
+            if (properties && properties.street) {
+                let addr = escapeHtml(properties.street);
+                if (properties.house_number) {
+                    addr += ` ${escapeHtml(properties.house_number)}`;
+                }
+                rows.push(`Location: ${addr}`);
+            }
+
+            if (properties && properties.direction) {
+                rows.push(`Direction: ${escapeHtml(properties.direction)}`);
+            }
+
+            return rows.length ? rows.join("<br>") : "No information";
+        }
+
+        function bindCommonInteractions(layer, feature, tooltipText = null) {
+            if (tooltipText) {
+                layer.bindTooltip(tooltipText, { sticky: true });
+            }
+
+            if (feature && feature.properties) {
+                layer.bindPopup(defaultPopupContent(feature.properties));
+            }
+        }
+
+        function pointLayerOptions(radius = 3, extraStyle = {}) {
+            return {
+                radius,
+                fillOpacity: 0.9,
+                weight: 1,
+                ...extraStyle
+            };
+        }
+
+        function laserStyle() {
+            return {
+                color: "#FF69B4",
+                fillColor: "#FF69B4",
+                fillOpacity: 0.3,
+                weight: 2
+            };
+        }
+
+        function pirStyle() {
+            return pointLayerOptions(3, {
+                color: "#1f77b4",
+                fillColor: "#1f77b4"
+            });
+        }
+
+        function inductionStyle() {
+            return pointLayerOptions(3, {
+                color: "#ff7f0e",
+                fillColor: "#ff7f0e"
+            });
+        }
+
+        function cameraStyle() {
+            return pointLayerOptions(3, {
+                color: "#d62728",
+                fillColor: "#d62728"
+            });
+        }
+
+        function rtkStyle() {
+            return pointLayerOptions(4, {
+                color: "#2ca02c",
+                fillColor: "#2ca02c"
+            });
+        }
+
+        function eth2Style() {
+            return pointLayerOptions(4, {
+                color: "#9467bd",
+                fillColor: "#9467bd"
+            });
+        }
+
+        function moveChillStyle() {
+            return pointLayerOptions(3, {
+                color: "#8c564b",
+                fillColor: "#8c564b"
+            });
+        }
+
+        function whiteSensorStyle() {
+            return pointLayerOptions(4, {
+                color: "#ffffff",
+                fillColor: "#ffffff"
+            });
+        }
+
+        function whitePolygonStyle() {
+            return {
+                color: "#ffffff",
+                weight: 3,
+                fillColor: "#ffffff",
+                fillOpacity: 0.25
+            };
+        }
+
+        const laserLayer = L.geoJSON(null, {
+            style: laserStyle,
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "Laser scanners");
+            }
+        }).addTo(map);
+
+        const pirLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, pirStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "PIR + induction");
+            }
+        }).addTo(map);
+
+        const inductionLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, inductionStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "Induction loops");
+            }
+        }).addTo(map);
+
+        const cameraLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, cameraStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "Surveillance cameras");
+            }
+        }).addTo(map);
+
+        const rtkLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, rtkStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "RTK reference stations");
+            }
+        }).addTo(map);
+
+        const eth2Layer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, eth2Style());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "Permanent GNSS reference station");
+            }
+        }).addTo(map);
+
+        const moveChillLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, moveChillStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                bindCommonInteractions(layer, feature, "Experimental chair tracking sensors (GNSS + occupancy)");
+            }
+        }).addTo(map);
+
+        const pedestrianCountingLayer = L.geoJSON(null, {
+            pane: "whitePolygonPane",
+            style: whitePolygonStyle,
+            onEachFeature: function(feature, layer) {
+                layer.bindTooltip("Pedestrian counting system", { sticky: true });
+                layer.bindPopup(defaultPopupContent(feature.properties || {}));
+            }
+        }).addTo(map);
+
+        const motorTrafficCountingLayer = L.geoJSON(null, {
+            pane: "whitePointPane",
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, whiteSensorStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindTooltip("Motor vehicle traffic counting system", { sticky: true });
+                layer.bindPopup(defaultPopupContent(feature.properties || {}));
+            }
+        }).addTo(map);
+
+        async function loadGeoJson(url, targetLayer) {
+            console.log("Chargement", url);
+            const response = await fetch(url);
+            console.log(url, response.status);
+
+            if (!response.ok) {
+                throw new Error(`Erreur de chargement : ${url}`);
+            }
+
+            const data = await response.json();
+            console.log("Features dans", url, data.features ? data.features.length : "pas de features");
+            targetLayer.addData(data);
+        }
+
+        async function loadAllLayers() {
+            try {
+                await Promise.all([
+                    loadGeoJson("data/laser_scanners.geojson", laserLayer),
+                    loadGeoJson("data/projet1.geojson", pirLayer),
+                    loadGeoJson("data/projet7.geojson", inductionLayer),
+                    loadGeoJson("data/projet3.geojson", cameraLayer),
+                    loadGeoJson("data/rtk_stations.geojson", rtkLayer),
+                    loadGeoJson("data/eth2.geojson", eth2Layer),
+                    loadGeoJson("data/move_chill_sensors.geojson", moveChillLayer),
+                    loadGeoJson("data/projet5.geojson", pedestrianCountingLayer),
+                    loadGeoJson("data/projet6.geojson", motorTrafficCountingLayer)
+                ]);
+
+                const allLayersGroup = L.featureGroup([
+                    laserLayer,
+                    pirLayer,
+                    inductionLayer,
+                    cameraLayer,
+                    rtkLayer,
+                    eth2Layer,
+                    moveChillLayer,
+                    pedestrianCountingLayer,
+                    motorTrafficCountingLayer
+                ]);
+
+                if (allLayersGroup.getBounds().isValid()) {
+                    map.fitBounds(allLayersGroup.getBounds(), { padding: [20, 20] });
+                }
+
+                console.log("Tous les calques sont chargés.");
+            } catch (error) {
+                console.error(error);
+                alert("Erreur JS : " + error.message);
+            }
+        }
+
+                loadAllLayers();
+
+        const legend = L.control({ position: "bottomright" });
+
+        legend.onAdd = function() {
+            const div = L.DomUtil.create("div", "legend");
+            div.innerHTML = `
+                <div class="legend-title">Urban sensing and positioning infrastructure</div>
+
+                <div style="margin-top:8px; font-weight:600;">Sensors</div>
+
+                <div class="legend-item">
+                    <span class="legend-box"></span>
+                    <span>Pedestrian counting system</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot white"></span>
+                    <span>Motor vehicle traffic counting system</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot red"></span>
+                    <span>Surveillance cameras</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot pink"></span>
+                    <span>Laser scanners</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot blue"></span>
+                    <span>PIR + induction</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot orange"></span>
+                    <span>Induction loops</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot brown"></span>
+                    <span>Experimental chair tracking sensors (GNSS + occupancy)</span>
+                </div>
+
+                <div style="margin-top:10px; font-weight:600;">Positioning infrastructure</div>
+
+                <div class="legend-item">
+                    <span class="legend-dot green"></span>
+                    <span>RTK reference stations</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-dot purple"></span>
+                    <span>Permanent GNSS reference station</span>
+                </div>
+            `;
+            return div;
+        };
+
+        legend.addTo(map);
+    </script>
+</body>
+</html>
