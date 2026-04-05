@@ -461,8 +461,7 @@
         legend.onAdd = function() {
             const container = L.DomUtil.create("div", "legend-wrapper");
 
-            const isMobile = window.innerWidth <= 600;
-            const initialDisplay = isMobile ? "none" : "block";
+            const initialDisplay = "block";
 
             container.innerHTML = `
                 <div id="legend-toggle" class="legend-toggle">Legend</div>
