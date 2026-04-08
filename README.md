@@ -48,7 +48,7 @@ Open the map directly:
 
 
 
-https://TON-LIEN-GITHUB-PAGES
+[https://TON-LIEN-GITHUB-PAGES](https://eliminui.github.io/Zurich-Smart-City-Network/)
 
 
 
