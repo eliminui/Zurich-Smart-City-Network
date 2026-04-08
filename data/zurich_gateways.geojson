@@ -1,0 +1,4299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54657471179962,
+          47.3775554628656
+        ]
+      },
+      "properties": {
+        "id": "rak7268cv2-tom",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-03-24T20:48:12.887128Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54819816166592,
+          47.3750465306579
+        ]
+      },
+      "properties": {
+        "id": "eui-0016c001ff10da2f",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 453,
+        "accuracy": 0,
+        "updatedAt": "2024-09-09T12:50:24.214689Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541,
+          47.382
+        ]
+      },
+      "properties": {
+        "id": "uzhloragwstb",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 433,
+        "accuracy": 0,
+        "updatedAt": "2025-01-31T08:13:15.265992Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548,
+          47.374
+        ]
+      },
+      "properties": {
+        "id": "uzhloragwkol1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 444,
+        "accuracy": 0,
+        "updatedAt": "2023-07-21T18:13:53.339168Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548,
+          47.374
+        ]
+      },
+      "properties": {
+        "id": "uzhloragwkol2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 443,
+        "accuracy": 0,
+        "updatedAt": "2023-12-15T13:57:54.939144Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54859709739685,
+          47.3745362457601
+        ]
+      },
+      "properties": {
+        "id": "0016c001ff10dcf3w",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:54.946805Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54860782623291,
+          47.3745362457601
+        ]
+      },
+      "properties": {
+        "id": "0016c001ff10da2f",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:40.659728Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548717131936439,
+          47.3794128767172
+        ]
+      },
+      "properties": {
+        "id": "eui-0016c001ff10dcb2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-05-20T14:09:09.448929Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.530454635783826,
+          47.371806232162726
+        ]
+      },
+      "properties": {
+        "id": "ledcity-ttig-58a0cbfffe801216",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 383,
+        "accuracy": 0,
+        "updatedAt": "2025-03-20T06:52:08.865446Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55002135038376,
+          47.384914134607534
+        ]
+      },
+      "properties": {
+        "id": "a840411f5fd84150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 510,
+        "accuracy": 0,
+        "updatedAt": "2026-03-24T06:07:56.257761Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.547175501084265,
+          47.38784242533944
+        ]
+      },
+      "properties": {
+        "id": "todesstrahlen",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:02.233332Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52835402661798,
+          47.3684289771513
+        ]
+      },
+      "properties": {
+        "id": "luxeria-zh-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:16.104481Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.536530967347296,
+          47.38879850662871
+        ]
+      },
+      "properties": {
+        "id": "gforce-one",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 459,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:16.263727Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.534617398613788,
+          47.389845267598744
+        ]
+      },
+      "properties": {
+        "id": "ttg-fs-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-12-29T03:41:08.800447Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521786591247592,
+          47.36848709176157
+        ]
+      },
+      "properties": {
+        "id": "clangettn",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 414,
+        "accuracy": 0,
+        "updatedAt": "2023-08-14T06:04:11.310674Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521786591247592,
+          47.36848709176157
+        ]
+      },
+      "properties": {
+        "id": "clangettn-indoor-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 414,
+        "accuracy": 0,
+        "updatedAt": "2023-06-04T10:08:59.396478Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548020622064342,
+          47.36157023215536
+        ]
+      },
+      "properties": {
+        "id": "avelon-gw-005",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-11-01T09:23:37.995767Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.523786664009096,
+          47.387472642012476
+        ]
+      },
+      "properties": {
+        "id": "ttn-gwzh001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:01.314825Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561959261523905,
+          47.36765939107997
+        ]
+      },
+      "properties": {
+        "id": "dragino-lps8-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2024-11-23T14:03:47.100057Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525053,
+          47.389327
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0b84be-2021-10-07-09-54-55",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:30.760464Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533342296794265,
+          47.36100589933785
+        ]
+      },
+      "properties": {
+        "id": "chalet",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 418,
+        "accuracy": 0,
+        "updatedAt": "2023-06-04T18:21:12.376779Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53440745,
+          47.36058588
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe8002fa",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2021-12-15T12:13:41.493363Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520299238023902,
+          47.38696428580745
+        ]
+      },
+      "properties": {
+        "id": "bitwascherei-indoor",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:30.915094Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521630167961122,
+          47.36528075403552
+        ]
+      },
+      "properties": {
+        "id": "ch-zrh-mns",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 420,
+        "accuracy": 0,
+        "updatedAt": "2021-11-15T19:57:08.497642Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51400989,
+          47.37874357
+        ]
+      },
+      "properties": {
+        "id": "ncazrh-gw-2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 420,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:41.347123Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.514026631528564,
+          47.36756966813323
+        ]
+      },
+      "properties": {
+        "id": "eui-0080e1ffff015dea-stm",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2026-01-17T08:14:38.772144Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.526194,
+          47.395033
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff249ba0-gtw10",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 440,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:27.319451Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213565826416,
+          47.3933400047883
+        ]
+      },
+      "properties": {
+        "id": "lhz1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 410,
+        "accuracy": 0,
+        "updatedAt": "2025-11-22T08:51:38.711568Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515838272869589,
+          47.389743103679855
+        ]
+      },
+      "properties": {
+        "id": "airbie-lora-gateway-001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2022-05-21T15:16:35.739187Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54980409145355,
+          47.3979598175767
+        ]
+      },
+      "properties": {
+        "id": "0016c001ff10dd0f",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:37.361378Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56,
+          47.359
+        ]
+      },
+      "properties": {
+        "id": "uzhloragwbot",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 453,
+        "accuracy": 0,
+        "updatedAt": "2023-10-17T17:10:31.923486Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56009840965271,
+          47.3589128910945
+        ]
+      },
+      "properties": {
+        "id": "0016c001ff10df2a",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:04.913215Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51471543312073,
+          47.389455740480976
+        ]
+      },
+      "properties": {
+        "id": "ritzeng-lora",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-07-31T13:26:41.887018Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.514780853547565,
+          47.36212364500023
+        ]
+      },
+      "properties": {
+        "id": "classy-outdoor-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-08-22T06:04:07.045363Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51016534579685,
+          47.36622369279087
+        ]
+      },
+      "properties": {
+        "id": "ttn-indoor-gateway-f100",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:50.589944Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51503,
+          47.39325
+        ]
+      },
+      "properties": {
+        "id": "hardsgi122a",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 402,
+        "accuracy": 0,
+        "updatedAt": "2025-02-25T20:59:31.342503Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522780667990446,
+          47.39861994798823
+        ]
+      },
+      "properties": {
+        "id": "waidliving-lora",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 550,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:19.311438Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55562448,
+          47.3535071
+        ]
+      },
+      "properties": {
+        "id": "indoor-lg1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 420,
+        "accuracy": 0,
+        "updatedAt": "2023-03-16T13:18:19.376688Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.509114980697634,
+          47.39077768901488
+        ]
+      },
+      "properties": {
+        "id": "test-ttn-k-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 401,
+        "accuracy": 0,
+        "updatedAt": "2021-10-20T10:03:51.356257Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5090238,
+          47.3908067
+        ]
+      },
+      "properties": {
+        "id": "gashis-gtw-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 410,
+        "accuracy": 0,
+        "updatedAt": "2021-10-27T22:06:27.15423Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53447,
+          47.402929
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe14367d-gtw08",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 466,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:28.802609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.512923717498781,
+          47.39852349572335
+        ]
+      },
+      "properties": {
+        "id": "ch-zrh-kaeferberg",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 425,
+        "accuracy": 0,
+        "updatedAt": "2024-01-02T12:24:08.913259Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.499417029920961,
+          47.38245225357062
+        ]
+      },
+      "properties": {
+        "id": "letzi-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-11-25T00:26:11.448355Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.531470245151914,
+          47.34822639558168
+        ]
+      },
+      "properties": {
+        "id": "eui-2cf7f11054200026",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:44.680644Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.504464,
+          47.359957
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff24b690-gtw11",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 485,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:12.074515Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.511236608028414,
+          47.39990525020407
+        ]
+      },
+      "properties": {
+        "id": "focused-lichterman",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 534,
+        "accuracy": 0,
+        "updatedAt": "2023-06-07T22:34:57.346451Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.526693537736541,
+          47.34476507785203
+        ]
+      },
+      "properties": {
+        "id": "buechi-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2023-06-25T14:55:26.108423Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56153,
+          47.40826
+        ]
+      },
+      "properties": {
+        "id": "eui-60c5a8fffe760f6c",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 551,
+        "accuracy": 0,
+        "updatedAt": "2025-03-26T09:43:41.161777Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533571551808281,
+          47.41082517792306
+        ]
+      },
+      "properties": {
+        "id": "eui-2cf7f110531000d3",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 454,
+        "accuracy": 0,
+        "updatedAt": "2024-01-18T14:23:40.90826Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53359999898093,
+          47.4108499692015
+        ]
+      },
+      "properties": {
+        "id": "eui-503035418f424750",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 454,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:11.350285Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54143457681853,
+          47.4125917459518
+        ]
+      },
+      "properties": {
+        "id": "aeis-gateway01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 442,
+        "accuracy": 0,
+        "updatedAt": "2025-01-14T14:51:59.030715Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54906995654961,
+          47.4126482230163
+        ]
+      },
+      "properties": {
+        "id": "lw-base",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:42.925896Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49179074766222,
+          47.391681997585614
+        ]
+      },
+      "properties": {
+        "id": "kaf-als-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:38.107626Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533743023872377,
+          47.41401912384906
+        ]
+      },
+      "properties": {
+        "id": "eui-9c65f9fffe3cdd8c",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2023-03-16T08:37:58.150379Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.531329035658015,
+          47.41375428140096
+        ]
+      },
+      "properties": {
+        "id": "lora-home",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:00.858153Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537311333858387,
+          47.41461972840002
+        ]
+      },
+      "properties": {
+        "id": "647fdafffe0129ff",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-01-29T14:06:18.930153Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.531548976898195,
+          47.41411923453658
+        ]
+      },
+      "properties": {
+        "id": "tts-indoor-akenza-office",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-01-21T09:38:16.931429Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57385246027386,
+          47.3453013928798
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff21f300",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 460,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:52.730733Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598491549491884,
+          47.38241678231993
+        ]
+      },
+      "properties": {
+        "id": "matthias-privat-gck",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 578,
+        "accuracy": 0,
+        "updatedAt": "2024-01-03T19:09:17.358613Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49144606947383,
+          47.3957152249329
+        ]
+      },
+      "properties": {
+        "id": "eui-c65f9fffe386777c",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-12-21T08:15:43.351767Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.536768555641176,
+          47.41583771307985
+        ]
+      },
+      "properties": {
+        "id": "oerlipark-net",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 439,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:44.275054Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.496379852294924,
+          47.40205194506831
+        ]
+      },
+      "properties": {
+        "id": "x-2cf7f11062300047",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 457,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:52.255609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.553221225738527,
+          47.415862547983494
+        ]
+      },
+      "properties": {
+        "id": "gw-fcc23d0b73c6",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2022-08-24T05:13:27.14567Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.584124785753692,
+          47.349428040199165
+        ]
+      },
+      "properties": {
+        "id": "eui-b827ebfffe29dbb1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 543,
+        "accuracy": 0,
+        "updatedAt": "2024-01-07T14:51:52.914377Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.553221225738527,
+          47.415891587593855
+        ]
+      },
+      "properties": {
+        "id": "gw-ttkg1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2022-08-22T09:57:55.74191Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541047934807164,
+          47.416700871165716
+        ]
+      },
+      "properties": {
+        "id": "cts-dev-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 428,
+        "accuracy": 0,
+        "updatedAt": "2022-06-15T14:17:33.037835Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48289370536804,
+          47.3815232394539
+        ]
+      },
+      "properties": {
+        "id": "a84041ffff298976",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 430,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:36.279051Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.548597097396852,
+          47.41760670452798
+        ]
+      },
+      "properties": {
+        "id": "squix78-ttn-indoor-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:52.096498Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48071,
+          47.38627
+        ]
+      },
+      "properties": {
+        "id": "jakobspark-gw-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 410,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:34.769651Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.549798448115357,
+          47.41929235480477
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe0e083b",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-09-11T17:12:56.176058Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.549860227142451,
+          47.41935478038771
+        ]
+      },
+      "properties": {
+        "id": "eui-a840411dc2ec4150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-12-04T15:10:51.336568Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.549838758673168,
+          47.41939101705053
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe8068ce",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 430,
+        "accuracy": 0,
+        "updatedAt": "2025-02-07T23:44:12.791814Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.394894
+        ]
+      },
+      "properties": {
+        "id": "58a0cbfffe801382-2022-08-04",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-08-09T13:47:35.732342Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "0016c001ff10d98b-2022-07-11-14-30-38",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-07-11T12:51:29.068374Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "647fdafffe007a23-2021-09-16-15-04-30",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:41.358961Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "647fdafffe0099e4-2021-11-23-16-06-44",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2021-11-23T17:17:20.900316Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "647fdafffe0099f8-2021-08-31-17-18-40",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-04-15T09:52:00.284011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe801040",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:24.590308Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe80107c",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-06-07T12:15:43.199316Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe801203",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-06-21T12:27:33.735996Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe80137d",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-04-05T18:17:37.367874Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0b7181-2021-06-17-08-58-33",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2021-08-19T09:52:50.114573Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0b7181-2022-04-07-16-21-08",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-07-11T13:31:31.048345Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0b7181-2022-12-07-13-06-35",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2022-12-07T12:16:31.35485Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483617,
+          47.3948946
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0b7181-2022-12-07-15-46-06",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2022-12-12T10:24:19.354962Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483614,
+          47.394897
+        ]
+      },
+      "properties": {
+        "id": "avelon-gw-056",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2024-01-04T13:08:33.35488Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5994,
+          47.3566
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe802110",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 624,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:32.673877Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.512923717498781,
+          47.41678857470213
+        ]
+      },
+      "properties": {
+        "id": "rs-te-reginato",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-11-25T05:00:05.34248Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57589,
+          47.4151033
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe058d10",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 430,
+        "accuracy": 0,
+        "updatedAt": "2025-11-21T16:00:08.196588Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.542331457138063,
+          47.42172335448378
+        ]
+      },
+      "properties": {
+        "id": "h2o-ch",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 464,
+        "accuracy": 0,
+        "updatedAt": "2023-03-24T20:45:18.127543Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.508398311636737,
+          47.41584110857337
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041fdfe275ef2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 550,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:38.588576Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5813676,
+          47.4142883
+        ]
+      },
+      "properties": {
+        "id": "spie-zurich-mtcdt-l4e1-247a",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 408,
+        "accuracy": 0,
+        "updatedAt": "2026-02-12T08:51:02.201665Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60346669487647,
+          47.39616128025597
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff20ce61",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-06-28T17:45:13.888876Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546054689965668,
+          47.42338349883257
+        ]
+      },
+      "properties": {
+        "id": "eui-1122334455668888",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 300,
+        "accuracy": 0,
+        "updatedAt": "2023-07-10T02:07:12.164431Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47523868083954,
+          47.3907910808376
+        ]
+      },
+      "properties": {
+        "id": "zrhimstueckler",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 412,
+        "accuracy": 0,
+        "updatedAt": "2025-06-13T14:28:57.60488Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47520112991333,
+          47.3908292134666
+        ]
+      },
+      "properties": {
+        "id": "madlabgateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 412,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:52.920954Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60517,
+          47.3962667
+        ]
+      },
+      "properties": {
+        "id": "daskalos",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 440,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:51.32086Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50513678647383,
+          47.4183071557053
+        ]
+      },
+      "properties": {
+        "id": "zuri-affi0",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:51.327557Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.507108688354494,
+          47.419870089678255
+        ]
+      },
+      "properties": {
+        "id": "rs-reginato",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2022-03-15T11:12:31.744674Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.542741,
+          47.426915
+        ]
+      },
+      "properties": {
+        "id": "rak0",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 432,
+        "accuracy": 0,
+        "updatedAt": "2021-08-13T18:07:47.655232Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46914201974869,
+          47.3905700018373
+        ]
+      },
+      "properties": {
+        "id": "eui-4a30504c8e504a53-r1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 438,
+        "accuracy": 0,
+        "updatedAt": "2025-12-01T17:03:49.903034Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469305634498598,
+          47.39118347108129
+        ]
+      },
+      "properties": {
+        "id": "eui-d401c3ffff6d061c-r1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:37.352981Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.504308,
+          47.423122
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe092235-gtw02",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 452,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:41.340231Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.570820204913618,
+          47.42710092855901
+        ]
+      },
+      "properties": {
+        "id": "df-lorawan",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 424,
+        "accuracy": 0,
+        "updatedAt": "2024-12-30T21:12:05.206668Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46307978,
+          47.36474559
+        ]
+      },
+      "properties": {
+        "id": "eui-74da38fffe3ebe40",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 608,
+        "accuracy": 0,
+        "updatedAt": "2023-12-03T00:54:21.340623Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46308,
+          47.36474
+        ]
+      },
+      "properties": {
+        "id": "eui-503139534d7c4750",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 608,
+        "accuracy": 0,
+        "updatedAt": "2025-09-22T05:32:28.061851Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46114635,
+          47.3727869
+        ]
+      },
+      "properties": {
+        "id": "ncazrh-gw-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 645,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:03:44.622038Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.460288,
+          47.368501
+        ]
+      },
+      "properties": {
+        "id": "ra-uitikon-01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 578,
+        "accuracy": 0,
+        "updatedAt": "2026-03-02T13:13:43.321399Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55885,
+          47.432765
+        ]
+      },
+      "properties": {
+        "id": "a84041ffff1ed958",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 459,
+        "accuracy": 0,
+        "updatedAt": "2021-10-20T11:49:27.25665Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47572968334755,
+          47.4129301605647
+        ]
+      },
+      "properties": {
+        "id": "eui-b827ebfffe977da8",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 480,
+        "accuracy": 0,
+        "updatedAt": "2024-02-06T19:59:39.34726Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.559175729751589,
+          47.43341500876334
+        ]
+      },
+      "properties": {
+        "id": "a84041218e384150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-05-15T21:28:06.198824Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56507658958435,
+          47.4326229994907
+        ]
+      },
+      "properties": {
+        "id": "dragino-lps8-8000",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:38.188767Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46811025651592,
+          47.3432568574083
+        ]
+      },
+      "properties": {
+        "id": "schweizergw2320",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 555,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:56.359974Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61362718,
+          47.33797816
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe800c9e",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-03-31T07:09:51.363147Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61362635819158,
+          47.3379720371703
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041fdfe257615",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 650,
+        "accuracy": 0,
+        "updatedAt": "2024-10-10T01:28:40.223865Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.613638877650374,
+          47.33796753522192
+        ]
+      },
+      "properties": {
+        "id": "eui-b827ebfffe9f475b",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-11-17T20:00:43.196584Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.613652310840495,
+          47.33796260806235
+        ]
+      },
+      "properties": {
+        "id": "eui-fcc23dfffe0b76d3",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 600,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:44.163215Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.45873236656189,
+          47.4081042580059
+        ]
+      },
+      "properties": {
+        "id": "a84041ffff2b31fe",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2025-08-30T21:40:20.451916Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445785343647,
+          47.3698886602297
+        ]
+      },
+      "properties": {
+        "id": "strickhof",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": -56,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:50.211845Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.44808232184517,
+          47.39308036664
+        ]
+      },
+      "properties": {
+        "id": "eui-a8404121b1004150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 500,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:44.271403Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62906873226166,
+          47.40805826797523
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe803c24",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 434,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:10.279279Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.474171161651613,
+          47.426069438160496
+        ]
+      },
+      "properties": {
+        "id": "zsot-ttn-01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:54.929391Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.474171161651613,
+          47.426069438160496
+        ]
+      },
+      "properties": {
+        "id": "zsot-ttn-02-indoor",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:42.953654Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.445559893125912,
+          47.358762206109176
+        ]
+      },
+      "properties": {
+        "id": "eui-503035412d0c4750",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:01.339347Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.474317659851623,
+          47.42695496737417
+        ]
+      },
+      "properties": {
+        "id": "eui-3133303739005c00",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-06-23T18:52:26.189574Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55067144773263,
+          47.3088305579791
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe10824b",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:18.926763Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52859318256378,
+          47.4476156259596
+        ]
+      },
+      "properties": {
+        "id": "xobo-xora",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 444,
+        "accuracy": 0,
+        "updatedAt": "2025-01-30T13:34:43.14511Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.528357148170473,
+          47.4476119981967
+        ]
+      },
+      "properties": {
+        "id": "xobo-ansi",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-03-23T16:24:03.444325Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.64829480648041,
+          47.383901136216934
+        ]
+      },
+      "properties": {
+        "id": "best-schwerzi-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 448,
+        "accuracy": 0,
+        "updatedAt": "2025-09-27T15:44:18.34873Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46961498304154,
+          47.3230942185587
+        ]
+      },
+      "properties": {
+        "id": "eui-503035412c794750",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 542,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:47.312658Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59299717005342,
+          47.3105240036887
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff21cbf8",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2023-02-11T09:17:47.344849Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46409764547392,
+          47.4304339772459
+        ]
+      },
+      "properties": {
+        "id": "chefgatewayhome",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 420,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:38.704479Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59438772778958,
+          47.3109421530571
+        ]
+      },
+      "properties": {
+        "id": "mihisgateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:18.258575Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.652288615703585,
+          47.382364349116855
+        ]
+      },
+      "properties": {
+        "id": "zur-grex-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 443,
+        "accuracy": 0,
+        "updatedAt": "2023-04-17T10:01:13.362524Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52067994196887,
+          47.30296334947227
+        ]
+      },
+      "properties": {
+        "id": "eui-0016c001f156af22",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 500,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:41.332894Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.526753908406445,
+          47.30105001769013
+        ]
+      },
+      "properties": {
+        "id": "my-seed-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 400,
+        "accuracy": 0,
+        "updatedAt": "2025-12-24T15:05:52.746722Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.526781119576961,
+          47.30101957390661
+        ]
+      },
+      "properties": {
+        "id": "dcod-test-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 300,
+        "accuracy": 0,
+        "updatedAt": "2026-01-14T09:11:00.929029Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4278,
+          47.3867
+        ]
+      },
+      "properties": {
+        "id": "a84041fdfe257b81",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 416,
+        "accuracy": 0,
+        "updatedAt": "2026-04-05T07:46:04.716502Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.588637113571169,
+          47.44797489425748
+        ]
+      },
+      "properties": {
+        "id": "my-gateway-kloten",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2021-11-08T11:27:20.621337Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46802915723756,
+          47.437330306674
+        ]
+      },
+      "properties": {
+        "id": "doebelinet-test",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 443,
+        "accuracy": 0,
+        "updatedAt": "2022-10-25T06:42:51.734896Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.480835361736464,
+          47.44356963477423
+        ]
+      },
+      "properties": {
+        "id": "eui-b827ebfffeec0721",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-08-26T10:01:34.192716Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.581595082358481,
+          47.45054287886487
+        ]
+      },
+      "properties": {
+        "id": "test-gateway8394",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 446,
+        "accuracy": 0,
+        "updatedAt": "2024-12-08T01:10:13.138319Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.585,
+          47.4507
+        ]
+      },
+      "properties": {
+        "id": "baguette",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 446,
+        "accuracy": 0,
+        "updatedAt": "2024-12-20T20:33:51.326056Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.565604272506949,
+          47.29815023810474
+        ]
+      },
+      "properties": {
+        "id": "thalwil",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 411,
+        "accuracy": 0,
+        "updatedAt": "2022-08-22T19:53:18.297879Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.424231112003328,
+          47.38978090412719
+        ]
+      },
+      "properties": {
+        "id": "tbrnt-home-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 400,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:44.740386Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.560870885849,
+          47.29732283320152
+        ]
+      },
+      "properties": {
+        "id": "ipa-projekt",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:12.258607Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66161947604269,
+          47.38189044290934
+        ]
+      },
+      "properties": {
+        "id": "eu1-gw-phil-01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 443,
+        "accuracy": 0,
+        "updatedAt": "2024-10-16T07:49:56.221499Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.661716969040286,
+          47.38208145808887
+        ]
+      },
+      "properties": {
+        "id": "eu1-gw-phil",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 443,
+        "accuracy": 0,
+        "updatedAt": "2021-12-13T13:46:25.494421Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43531668186188,
+          47.4194116720979
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe803dc4",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 412,
+        "accuracy": 0,
+        "updatedAt": "2023-06-06T20:11:20.513599Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.620090275693599,
+          47.44836644660654
+        ]
+      },
+      "properties": {
+        "id": "a84041ffff298416",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 473,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:40.357558Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.586335556832376,
+          47.4608152772983
+        ]
+      },
+      "properties": {
+        "id": "rebway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 470,
+        "accuracy": 0,
+        "updatedAt": "2025-09-11T15:31:28.232669Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.442176815424252,
+          47.43642860247703
+        ]
+      },
+      "properties": {
+        "id": "a84041ffff253608",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 510,
+        "accuracy": 0,
+        "updatedAt": "2024-03-30T18:02:35.055677Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.674823,
+          47.381754
+        ]
+      },
+      "properties": {
+        "id": "eui-a2dd01a9f93e3e33",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 400,
+        "accuracy": 0,
+        "updatedAt": "2024-11-03T18:58:58.192773Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60505,
+          47.29702
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff238e58",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 10,
+        "accuracy": 0,
+        "updatedAt": "2023-09-04T17:59:40.673094Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62752914428711,
+          47.4470318854825
+        ]
+      },
+      "properties": {
+        "id": "24e124fffefa4274",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 477,
+        "accuracy": 0,
+        "updatedAt": "2025-01-29T06:18:05.04913Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.627271652221681,
+          47.44784450709314
+        ]
+      },
+      "properties": {
+        "id": "delta-club-huetten-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-03-11T12:22:31.142432Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.67601,
+          47.36497
+        ]
+      },
+      "properties": {
+        "id": "eui-a8404120bb444150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:55.334603Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533802032470705,
+          47.28481512667273
+        ]
+      },
+      "properties": {
+        "id": "a840411da1184150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2024-09-18T21:18:52.078705Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.67787,
+          47.37184
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff269198",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:16.950654Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503549396991732,
+          47.4661356004269
+        ]
+      },
+      "properties": {
+        "id": "hasligate01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 460,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:44.965198Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.501603722834263,
+          47.465820458044256
+        ]
+      },
+      "properties": {
+        "id": "kicts01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 451,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:03.337886Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43695819377899,
+          47.4375946697658
+        ]
+      },
+      "properties": {
+        "id": "eui-58a0cbfffe804d69",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 130,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:26.635445Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5403573513031,
+          47.2833915853338
+        ]
+      },
+      "properties": {
+        "id": "loragw01-a84041fdfe2ad1d0",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:20.191283Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51025581,
+          47.46850848
+        ]
+      },
+      "properties": {
+        "id": "rpi-hekelio",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 441,
+        "accuracy": 0,
+        "updatedAt": "2021-08-31T08:06:06.164335Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58256,
+          47.46799
+        ]
+      },
+      "properties": {
+        "id": "blem-003",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 500,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:36.796162Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.44183583,
+          47.44429812
+        ]
+      },
+      "properties": {
+        "id": "pmcpluslora",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 420,
+        "accuracy": 0,
+        "updatedAt": "2026-01-09T17:14:54.55086Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.68217443892583,
+          47.3671846410748
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff255298",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:02.307083Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503278493881227,
+          47.46931617360296
+        ]
+      },
+      "properties": {
+        "id": "eui-a840411f54284150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 451,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:03:34.327133Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.408628702163698,
+          47.410342916256106
+        ]
+      },
+      "properties": {
+        "id": "gateway-zg-296357",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:12:50.917939Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.40877094247271,
+          47.410961049663584
+        ]
+      },
+      "properties": {
+        "id": "ekz-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 406,
+        "accuracy": 0,
+        "updatedAt": "2023-12-21T09:38:22.873319Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6874496,
+          47.3895115
+        ]
+      },
+      "properties": {
+        "id": "aek-ttn-indoor-gw02",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 470,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:12.850239Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6874496,
+          47.3895115
+        ]
+      },
+      "properties": {
+        "id": "ttn-aek-indoor-gw01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 470,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:28.331169Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50122928619385,
+          47.47326865463173
+        ]
+      },
+      "properties": {
+        "id": "eui-a840411edbc84150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 451,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:43.332967Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.420934677124025,
+          47.31852222921653
+        ]
+      },
+      "properties": {
+        "id": "loracs-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 400,
+        "accuracy": 0,
+        "updatedAt": "2023-09-22T18:42:48.670692Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.421051457979292,
+          47.31769045850493
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041fdfe257dab",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 572,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:05.312925Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685084153986562,
+          47.40594603354636
+        ]
+      },
+      "properties": {
+        "id": "kindhausen-gw1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 490,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:19.313992Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685084,
+          47.40595
+        ]
+      },
+      "properties": {
+        "id": "lps8-gateway-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 494,
+        "accuracy": 0,
+        "updatedAt": "2025-04-23T14:30:12.779558Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.69070911410745,
+          47.390644043188
+        ]
+      },
+      "properties": {
+        "id": "24e124fffef3d1bb",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 465,
+        "accuracy": 0,
+        "updatedAt": "2023-08-23T18:38:08.107369Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.44955921173096,
+          47.2948247768603
+        ]
+      },
+      "properties": {
+        "id": "eui-503139534d0e4750",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 501,
+        "accuracy": 0,
+        "updatedAt": "2025-05-24T14:48:59.54874Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.68566409695325,
+          47.4187816860447
+        ]
+      },
+      "properties": {
+        "id": "eui-ttig-zumikon",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 510,
+        "accuracy": 0,
+        "updatedAt": "2024-12-07T12:39:29.416188Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.486280254170653,
+          47.477155917208556
+        ]
+      },
+      "properties": {
+        "id": "pose-unverricht",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 418,
+        "accuracy": 0,
+        "updatedAt": "2024-05-10T11:17:44.219567Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.437644839286806,
+          47.45784276111545
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041ffff22676c",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:18.479674Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.39109835736399,
+          47.342694682048524
+        ]
+      },
+      "properties": {
+        "id": "ch-ag-mut",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 580,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:26.636624Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.38685989379883,
+          47.40514629232427
+        ]
+      },
+      "properties": {
+        "id": "eui-makezurich-indoor",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-06-11T14:03:48.0418Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.398465889421184,
+          47.42796494078356
+        ]
+      },
+      "properties": {
+        "id": "aliexpress",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 574,
+        "accuracy": 0,
+        "updatedAt": "2024-11-13T07:06:42.789925Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.37916731834412,
+          47.3682602591846
+        ]
+      },
+      "properties": {
+        "id": "stargate3",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-07-23T13:05:27.526396Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3783352887258,
+          47.3671247482516
+        ]
+      },
+      "properties": {
+        "id": "eui-beeeef0000000002",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 490,
+        "accuracy": 0,
+        "updatedAt": "2026-02-08T10:10:26.4068Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.37816666578874,
+          47.3670381164268
+        ]
+      },
+      "properties": {
+        "id": "eui-beeeef0000000001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 495,
+        "accuracy": 0,
+        "updatedAt": "2026-02-08T12:26:20.821643Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.672883412800731,
+          47.444503770320416
+        ]
+      },
+      "properties": {
+        "id": "lindau-zh1-gw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 545,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:54.951403Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.692505657672884,
+          47.424536179235474
+        ]
+      },
+      "properties": {
+        "id": "effi-lora",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 507,
+        "accuracy": 0,
+        "updatedAt": "2021-07-18T19:51:24.574441Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.703274726867678,
+          47.34930404713486
+        ]
+      },
+      "properties": {
+        "id": "dragino-lps8-hohfluren",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 470,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:06:56.900359Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.373424708843233,
+          47.364263502732946
+        ]
+      },
+      "properties": {
+        "id": "webfoxx-gateway1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 530,
+        "accuracy": 0,
+        "updatedAt": "2024-10-27T22:29:02.162742Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62664937973023,
+          47.2775358234504
+        ]
+      },
+      "properties": {
+        "id": "mash4077gw2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:06.486665Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.709636926651,
+          47.3577525286429
+        ]
+      },
+      "properties": {
+        "id": "gerdway-ttn",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 465,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:13:14.694959Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.709656601013021,
+          47.357777114622735
+        ]
+      },
+      "properties": {
+        "id": "eui-affe183c92bd8129",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 465,
+        "accuracy": 0,
+        "updatedAt": "2024-06-21T18:01:24.516188Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.711704909801485,
+          47.362230515917744
+        ]
+      },
+      "properties": {
+        "id": "dragino-lps8-haberweid",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 470,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:11:16.91399Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.406279087066652,
+          47.449481275735906
+        ]
+      },
+      "properties": {
+        "id": "ganterbase01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-10-01T07:16:42.379229Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.552470207214357,
+          47.49398349512114
+        ]
+      },
+      "properties": {
+        "id": "gw-senna-001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 415,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:09:54.946155Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46374809741974,
+          47.48278602473248
+        ]
+      },
+      "properties": {
+        "id": "chromos-lora-001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 455,
+        "accuracy": 0,
+        "updatedAt": "2022-04-06T08:11:12.382057Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.715655803680422,
+          47.36048439812452
+        ]
+      },
+      "properties": {
+        "id": "083af2ffff668970",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 15,
+        "accuracy": 0,
+        "updatedAt": "2022-05-23T20:12:45.447483Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.715795278549196,
+          47.360571608487895
+        ]
+      },
+      "properties": {
+        "id": "ttn-58a0cbfffe800ef4",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 473,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:42.921673Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7161922454834,
+          47.36019369587216
+        ]
+      },
+      "properties": {
+        "id": "ttn-30aea4fffe74b3f0",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:04.349957Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.36628,
+          47.36379
+        ]
+      },
+      "properties": {
+        "id": "hb9tpr-lorawan-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 555,
+        "accuracy": 0,
+        "updatedAt": "2023-08-04T16:19:05.326894Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.365955856811508,
+          47.36375012042577
+        ]
+      },
+      "properties": {
+        "id": "science-gateway-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 555,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:07:08.923296Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.365429214020491,
+          47.36446882302721
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041219b284150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 550,
+        "accuracy": 0,
+        "updatedAt": "2023-07-31T23:48:21.330468Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.45042576126151,
+          47.27381405
+        ]
+      },
+      "properties": {
+        "id": "b827ebfffe5db969",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 491,
+        "accuracy": 0,
+        "updatedAt": "2025-05-29T05:30:45.759431Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62057685852051,
+          47.486093918668
+        ]
+      },
+      "properties": {
+        "id": "oberembrach-1",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 460,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:20.470985Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.591566004115025,
+          47.25980580877033
+        ]
+      },
+      "properties": {
+        "id": "fcc23dfffe0a8c13-2021-10-01-19-21-32",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:04:14.929177Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.396060390722951,
+          47.30063559921757
+        ]
+      },
+      "properties": {
+        "id": "8916jonenv3",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 460,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:09.3419Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.368210494518282,
+          47.41975053708852
+        ]
+      },
+      "properties": {
+        "id": "werke-dlos8-001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 620,
+        "accuracy": 0,
+        "updatedAt": "2025-12-03T16:11:01.863268Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.597037792205812,
+          47.25735567695128
+        ]
+      },
+      "properties": {
+        "id": "slipping-ravine2",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 400,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:10:06.932496Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.72274,
+          47.40543
+        ]
+      },
+      "properties": {
+        "id": "illnet-00",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 526,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:13:10.765121Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.72274,
+          47.40543
+        ]
+      },
+      "properties": {
+        "id": "illnet-01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 526,
+        "accuracy": 0,
+        "updatedAt": "2024-11-27T19:58:33.334467Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522015,
+          47.250338
+        ]
+      },
+      "properties": {
+        "id": "gateway-sidler-0",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 635,
+        "accuracy": 0,
+        "updatedAt": "2024-01-04T17:48:36.919556Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.35619876602945,
+          47.3560427567865
+        ]
+      },
+      "properties": {
+        "id": "lora-dr01-ch-cazemier-ag",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 435,
+        "accuracy": 0,
+        "updatedAt": "2024-07-12T15:54:10.226411Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.72343420982361,
+          47.41255964155739
+        ]
+      },
+      "properties": {
+        "id": "crs-illau-gtw",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 566,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:05:18.091331Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.73057686533798,
+          47.3547373056341
+        ]
+      },
+      "properties": {
+        "id": "eui-b827ebfffe158be4",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-03-12T12:36:28.219395Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.699441850185396,
+          47.30195920576499
+        ]
+      },
+      "properties": {
+        "id": "rg1xx293958",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2022-01-19T05:57:27.370956Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.398412346161718,
+          47.465051061272185
+        ]
+      },
+      "properties": {
+        "id": "lorawan0041",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-11-26T10:43:34.300002Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.69747,
+          47.455333
+        ]
+      },
+      "properties": {
+        "id": "a840412177b04150",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 550,
+        "accuracy": 0,
+        "updatedAt": "2022-02-18T14:03:26.388125Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54948074811309,
+          47.5084977451898
+        ]
+      },
+      "properties": {
+        "id": "eui-a84041fdfe24d181",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2023-12-21T22:17:20.924475Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.602772355079653,
+          47.503536975562945
+        ]
+      },
+      "properties": {
+        "id": "ttn-gw-chueng15-01",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 450,
+        "accuracy": 0,
+        "updatedAt": "2022-04-03T12:53:25.52337Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.34846138954163,
+          47.3475101373879
+        ]
+      },
+      "properties": {
+        "id": "synops-lora-gateway",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 386,
+        "accuracy": 0,
+        "updatedAt": "2026-02-05T11:28:00.701389Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5337108373642,
+          47.2426480665139
+        ]
+      },
+      "properties": {
+        "id": "eui-3133303716005800",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2025-08-21T12:38:40.175401Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.657104447600808,
+          47.26759609903237
+        ]
+      },
+      "properties": {
+        "id": "eui-ac1f09fffe0606b8",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": true,
+        "altitude": 0,
+        "accuracy": 0,
+        "updatedAt": "2026-04-08T17:08:50.341231Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53042781352997,
+          47.242331165415806
+        ]
+      },
+      "properties": {
+        "id": "chirp-hausen-001",
+        "netID": "000013",
+        "tenantID": "ttn",
+        "online": false,
+        "altitude": 620,
+        "accuracy": 0,
+        "updatedAt": "2022-09-21T18:51:55.041315Z"
+      }
+    }
+  ]
+}
