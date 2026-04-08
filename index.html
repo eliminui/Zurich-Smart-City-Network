@@ -125,6 +125,10 @@
             background: #8c564b;
         }
 
+        .legend-dot.cyan {
+            background: #00E5FF;
+        }
+
         .legend-box {
             width: 16px;
             height: 12px;
@@ -236,6 +240,32 @@
             return rows.length ? rows.join("<br>") : "No information";
         }
 
+        function gatewayPopupContent(properties) {
+            const rows = [];
+
+            if (properties && properties.id) {
+                rows.push(`<b>${escapeHtml(properties.id)}</b>`);
+            }
+
+            if (properties && properties.online !== undefined) {
+                rows.push(`Online: ${escapeHtml(properties.online)}`);
+            }
+
+            if (properties && properties.altitude !== null && properties.altitude !== undefined) {
+                rows.push(`Altitude: ${escapeHtml(properties.altitude)} m`);
+            }
+
+            if (properties && properties.tenantID) {
+                rows.push(`Tenant: ${escapeHtml(properties.tenantID)}`);
+            }
+
+            if (properties && properties.netID) {
+                rows.push(`Network ID: ${escapeHtml(properties.netID)}`);
+            }
+
+            return rows.length ? rows.join("<br>") : "LoRaWAN gateway";
+        }
+
         function bindCommonInteractions(layer, feature, tooltipText = null) {
             if (tooltipText) {
                 layer.bindTooltip(tooltipText, { sticky: true });
@@ -322,6 +352,14 @@
             };
         }
 
+        function lorawanGatewayStyle() {
+            return pointLayerOptions(5, {
+                color: "#00E5FF",
+                fillColor: "#00E5FF",
+                fillOpacity: 0.95
+            });
+        }
+
         const laserLayer = L.geoJSON(null, {
             style: laserStyle,
             onEachFeature: function(feature, layer) {
@@ -403,6 +441,16 @@
             }
         }).addTo(map);
 
+        const lorawanGatewayLayer = L.geoJSON(null, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, lorawanGatewayStyle());
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindTooltip("LoRaWAN gateways (TTN / The Things Stack CE)", { sticky: true });
+                layer.bindPopup(gatewayPopupContent(feature.properties || {}));
+            }
+        }).addTo(map);
+
         async function loadGeoJson(url, targetLayer) {
             console.log("Chargement", url);
             const response = await fetch(url);
@@ -428,7 +476,8 @@
                     loadGeoJson("data/eth2.geojson", eth2Layer),
                     loadGeoJson("data/move_chill_sensors.geojson", moveChillLayer),
                     loadGeoJson("data/projet5.geojson", pedestrianCountingLayer),
-                    loadGeoJson("data/projet6.geojson", motorTrafficCountingLayer)
+                    loadGeoJson("data/projet6.geojson", motorTrafficCountingLayer),
+                    loadGeoJson("data/zurich_gateways.geojson", lorawanGatewayLayer)
                 ]);
 
                 const allLayersGroup = L.featureGroup([
@@ -440,7 +489,8 @@
                     eth2Layer,
                     moveChillLayer,
                     pedestrianCountingLayer,
-                    motorTrafficCountingLayer
+                    motorTrafficCountingLayer,
+                    lorawanGatewayLayer
                 ]);
 
                 if (allLayersGroup.getBounds().isValid()) {
@@ -461,7 +511,8 @@
         legend.onAdd = function() {
             const container = L.DomUtil.create("div", "legend-wrapper");
 
-            const initialDisplay = "block";
+            const isMobile = window.innerWidth <= 600;
+            const initialDisplay = isMobile ? "none" : "block";
 
             container.innerHTML = `
                 <div id="legend-toggle" class="legend-toggle">Legend</div>
@@ -516,6 +567,13 @@
                     <div class="legend-item">
                         <span class="legend-dot purple"></span>
                         <span>Permanent GNSS reference station</span>
+                    </div>
+
+                    <div class="legend-subtitle">Network infrastructure</div>
+
+                    <div class="legend-item">
+                        <span class="legend-dot cyan"></span>
+                        <span>LoRaWAN gateways (TTN / The Things Stack CE)</span>
                     </div>
                 </div>
             `;
